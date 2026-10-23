@@ -20,8 +20,9 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    // Verify that the title and counter are rendered
-    expect(find.text('ReHabRep Design System'), findsOneWidget);
+    // Verify that the logo, title and counter are rendered
+    expect(find.text('ReHabRep'), findsOneWidget);
+    expect(find.byType(Image), findsOneWidget);
     expect(find.text('LIVE REP COUNTER (96sp+)'), findsOneWidget);
 
     // Scroll to the button and verify it renders

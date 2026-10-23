@@ -60,9 +60,26 @@ class DesignSystemShowcaseScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'ReHabRep Design System',
-          semanticsLabel: 'ReHabRep Design System and Accessibility Verification',
+        title: Row(
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image.asset(
+                'assets/images/app_logo.png',
+                width: 44,
+                height: 44,
+                fit: BoxFit.cover,
+              ),
+            ),
+            const SizedBox(width: AppTokens.spacing12),
+            const Expanded(
+              child: Text(
+                'ReHabRep',
+                semanticsLabel: 'ReHabRep Design System and Accessibility Verification',
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
         ),
         actions: [
           IconButton(
