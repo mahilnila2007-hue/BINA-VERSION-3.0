@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "appName": "ReHabRep",
+  "safetyNotice": "Supports rehab monitoring. Does not diagnose.",
+  "buttonStart": "START EXERCISE",
+  "buttonFinish": "FINISH",
+  "cueGoodRep": "Good repetition",
+  "cueBendMore": "Bend a little more",
+  "cueSlowDown": "Slow down",
+  "cueRestNow": "Rest now",
+  "confirmStop": "Stop session?",
+  "cameraPermission": "ReHabRep needs camera access to observe your movement and guide your exercise.",
+  "wearablePairing": "Connect an optional wrist sensor to record heart rate and muscle signals."
+}
